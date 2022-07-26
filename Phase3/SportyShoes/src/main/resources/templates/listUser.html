@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>List of Users</h1>
+<table>
+	<tr th:each="user :${users}">
+		<td><span th:text="${user.name}"></span></td>
+	</tr>
+
+</table>
+
+
+</body>
+</html>
